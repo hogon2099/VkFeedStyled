@@ -1,0 +1,184 @@
+
+/* ----------------- */
+/* ЛЕНТА НОВОСТЕЙ   */
+/* ----------------- */
+
+/* --------------------------------- */
+/* Правый столбец в ленте новостей  */
+/* --------------------------------- */
+
+/* Оболочка правого столбца */
+.narrow_column_wrap {
+   float: none !important;
+   width: inherit !important;
+}
+/* Правый столбец  */
+.narrow_column {
+   width: auto;
+}
+/* Позиция правого столбца, когда он становится fixed через js */
+.narrow_column.fixed {
+   position: relative;
+}
+/* Оболочка среднего столбца */
+.wide_column_wrap {
+   width: 1760px;
+}
+/* Пост  */
+.feed_row {
+   margin: 16.6px;
+   vertical-align: top;
+   width: 550px !important;
+   height: 680px !important;
+   overflow: hidden;
+   display: inline-block;
+}
+
+/* ------------------ */
+/* Элементы в ленте  */
+/* ------------------ */
+
+/* Форма  Что у вас нового  */
+.feed_post_field_wrap {
+   display: none !important;
+}
+/* Понравившиеся фотографии над лентой  */
+.fave_photos_page_block {
+   display: none !important;
+}
+
+/* ------------------------------------ */
+/* Меню с выбором источника новостей   */
+/* ------------------------------------ */
+
+/* Элемент правого меню (Новости/Понравилось/Рекомеднации)  */
+.ui_rmenu_item {
+   display: inline-block;
+   width: 100px;
+   text-align: center
+}
+.ui_rmenu_item_hidden {
+   display: none;
+}
+/* Разделитель между элементами правого меню  */
+.ui_rmenu_sep {
+   display: none;
+}
+/* Оболочка правой менюшки  */
+.ui_rmenu {
+   margin: auto;
+   text-align: center;
+}
+/* Выделенный элемент меню */
+.ui_rmenu_item_sel {
+   border-bottom: 2px solid #5181b8;
+   border-left: none;
+   background: none;
+}
+.ui_rmenu_item_selhover {
+   border-bottom: 2px solid #5181b8;
+   border-left: none;
+   background: none;
+}
+/* Истории  */
+.stories_feed_cont{
+   display: none;
+}
+/* Разделитель  */
+#stories_feed_wrap{
+   display: none !important;
+}
+/* Оболочка для пользовательских фильтров  */
+._ui_rmenu_news_list {
+   display: inline-block !important;
+}
+/* Пользовательские фильтры для новостей  */
+.ui_rmenu_subitem {
+   display: inline-block;
+}
+/* Ненужные фильтры новостей   */
+#ui_rmenu_photos, #ui_rmenu_videos, #ui_rmenu_friends, #ui_rmenu_groups, #ui_rmenu_podcasts, #ui_rmenu_kazan, #ui_rmenu_ti2019 {
+   display: none !important;
+}
+
+/* ----------------------------------------------- */
+/*   Меню с фильтрами сортировки в Понравившиеся   */
+/* ----------------------------------------------- */
+
+/* Заголовок менюшки с фильтрами сортировки */
+.right_list_header {
+   height: 0px !important;
+}
+/* Элементы менюшки с фильтрами сортировки */
+._feed_filter_row {
+   width: 150px;
+   display: inline-block;
+}
+/* Оболочка для итемов с фильтрами */
+.feed_filters_wrap {
+   width: 765px;
+   margin: auto;
+}
+
+/* ----------------------- */
+/* Элементы внутри поста  */
+/* ----------------------- */
+
+/* Сортировщик комментариев  */
+.post_replies_header {
+   display: none;
+}
+/* Комментарии  */
+.replies {
+   display: none;
+}
+
+/* ---------------------- */
+/* Особые посты в ленте  */
+/* ---------------------- */
+
+/* Затычка для постов с рекламой  */
+#ads_feed_placeholder {
+   background: url('httpsavatars.mds.yandex.netget-pdb102594547998869-5d30-43aa-bfc6-567da9710387s1200webp=false');
+   height: 500px;
+   position: relative;
+   border-radius: 4px;
+   box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+   margin: 15px 0 0;
+}
+/* Затычка для других постов с рекламой */
+._ads_block_data_w {
+   background: url('httpsavatars.mds.yandex.netget-pdb102594547998869-5d30-43aa-bfc6-567da9710387s1200webp=false');
+   height: 500px;
+}
+/* Пост с предложенными друзьями  */
+.feed_friends_recomm {
+   background: url('httpsavatars.mds.yandex.netget-pdb102594547998869-5d30-43aa-bfc6-567da9710387s1200webp=false');
+   height: 500px;
+}
+
+.ui_rmenu_likes{
+border-left: none !important;
+}
+.feed_filters_wrap{
+   width: inherit;
+   margin-left: 450px;
+}
+#ui_rmenu_coronavirus{
+   display: none
+}
+#ui_rmenu_qazaqstan{
+   display: none
+}
+#ui_rmenu_clips{
+   display: none
+}
+#ui_rmenu_ukraine{
+    display:none
+}
+#ui_rmenu_football{
+    display:none
+}
+#ui_rmenu_photo{
+    display:none
+}

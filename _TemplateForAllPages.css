@@ -1,0 +1,109 @@
+
+/*-------------------------------*/
+/* ОБЩИЙ ШАБЛОН ДЛЯ ВСЕХ СТРАНИЦ */
+/*-------------------------------*/
+
+
+/*------------*/
+/* Контейнеры */
+/*------------*/
+
+/* Контейнер с шапкой и остальным */
+ #page_layout {
+    width: 1750px !important;
+}
+/* Средний и правый столбцы*/
+ #page_body {
+    float: left;
+    width: inherit !important;
+}
+
+/*-------------------------------------*/
+/* Левый столбец с навигацией по сайту */
+/*-------------------------------------*/
+
+/* Левый столбец*/
+ .side_bar {        
+    width: inherit !important;
+    height: 60px !important;
+    text-align: center !important;
+}
+/* Вложенный элемент*/
+ .side_bar_inner {
+	padding-top: 15px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;  
+    width: auto !important;
+    background: #edeef0 !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8 !important;
+}
+/* Дополнительные ссылки под левым меню*/
+ .left_menu_nav_wrap {
+    display: none;
+}
+/*Разделитель между элементами левого меню */
+ .l_main {
+    display:none;
+}
+/* Элементы менюшки*/
+ li {
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+}
+/* Разделитель */
+.more_div{
+    display:none;
+}
+
+/*----------------------*/
+/* Элементы на странице */
+/*----------------------*/
+
+/* Полоска VK наверху*/
+.back {
+    /*background: rgba(70, 160, 190, 0.8) !important;*/
+    border-bottom: none !important;
+}
+/* Полоска с чатами в нижней правой части страницы*/
+ .chat_onl_inner {
+    display: none;
+}
+/* Прозрачная кнопка в левой части окна для быстрого скролла наверх */
+ .stl_active {
+    width: 30px !important;
+}
+#stl_bg {
+    width: 100%;
+}
+/* Надпись "Наверх" */
+ #stl_text {
+    font-size: 0px;
+    margin-left: 7px !important;
+}
+#l_covid19{
+    display: none;
+}
+#l_svd{
+	display:none   
+}    
+#l_mk{
+    display:none
+}
+#l_job{
+    display:none
+}
+#l_fortune{
+    display:none
+}
+#l_mini_apps{
+    display:none
+}
+#l_ap{
+    display:none
+}
+#l_combo{
+    display:none
+}

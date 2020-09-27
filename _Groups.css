@@ -1,0 +1,53 @@
+/*------------*/
+/* СООБЩЕСТВА */
+/*------------*/
+
+/* "Информация" */
+.ui_tab_plain{
+    float: left !important;
+}
+/* Контейнер с меюшками и постами */
+#page_body{
+    width: 1385px !important;
+    margin-right: 183px  !important;
+	margin-left: 183px  !important;
+    /* width: 1450 !important; */
+    /* margin-right: 150px  !important; */
+    /* margin-right: 150px  !important; */   
+}
+/* Контейнер с постами */
+#page_wall_posts{
+    text-align: center;
+}
+/* Обложка группы */
+.page_cover {
+    width: 800px !important;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.page_cover_info  {
+    width: 800px !important;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* Кнопка "Все записи" */
+._wall_tab_all{
+    width: inherit;
+}
+/* Кнопка "Записи сообщества" */
+._wall_tab_own{
+    width: inherit;
+}
+/* Пост */
+ .post{
+    display: inline-block !important;
+    vertical-align: top !important;
+	width: 550px !important;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 20px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
