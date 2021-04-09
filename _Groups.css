@@ -8,16 +8,23 @@
 }
 /* Контейнер с меюшками и постами */
 #page_body{
-    width: 1385px !important;
-    margin-right: 183px  !important;
-	margin-left: 183px  !important;
+    width: 1760px !important;
+    /* margin-right: 183px  !important; */
+	margin-left: 240px  !important; 
     /* width: 1450 !important; */
     /* margin-right: 150px  !important; */
     /* margin-right: 150px  !important; */   
 }
 /* Контейнер с постами */
+.wide_column_wrap{
+    margin-left: -245px !important;
+}
+/* Контейнер с постами */
 #page_wall_posts{
     text-align: center;
+}
+.narrow_column_wrap{
+    display: none;
 }
 /* Обложка группы */
 .page_cover {
